@@ -107,7 +107,7 @@ public class Main {
         System.out.print("\n  Appointment ID: ");
         hospital.cancelAppointment(sc.nextLine().trim());
     }
-    // ── Seed Data ────────────────────────
+    // ── Sample Data ────────────────────────
     static void sampleData() {
         Doctor d1 = new Doctor("D001", "Dhoni",  "Cardiology");
         d1.addSlot(new Slot("S1", "09:00", "09:30"));
